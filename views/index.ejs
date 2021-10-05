@@ -2,10 +2,55 @@
 <html>
   <head>
     <title><%= title %></title>
+    <script src="https://kit.fontawesome.com/696433c53d.js" crossorigin="anonymous"></script>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div id="contentItemsCarousel">
+
+      <div class="item-carousel" id="item-carousel-1">
+        <div class="card-carousel" id="card-carousel-1">
+          <img src="../images/3RetroBlue-1600x576.2.jpg" alt="">
+        </div>
+        <div class="arrow-carousel"> 
+          <a href="#item-carousel-3">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a href="#item-carousel-2">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="item-carousel" id="item-carousel-2">
+        <div class="card-carousel" id="card-carousel-2">
+          <img src="../images/BANNER_1600X576px_dia-de-la-madre.jpeg" alt="">
+        </div>
+        <div class="arrow-carousel">
+          <a href="#item-carousel-1">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a href="#item-carousel-3">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+          
+        </div>
+      </div>
+
+      <div class="item-carousel" id="item-carousel-3">
+        <div class="card-carousel" id="card-carousel-3">
+          <img src="../images/BannerWeb-MoveToZero1600x576.png" alt="">
+        </div>
+        <div class="arrow-carousel">
+          <a href="#item-carousel-2">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a href="#item-carousel-1">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
